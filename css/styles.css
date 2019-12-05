@@ -1,0 +1,78 @@
+body {
+  padding-top: 5rem;
+}
+.Fruit-Salad {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.carousel-item img{
+  max-height: 500px
+}
+@media only screen and (min-width:700px)
+#carouselExampleControls {
+  display: none;
+}
+body {
+color: black;
+font-family: Comic Sans MS;
+margin: 0px;
+}
+
+.container2 {
+  padding: 25px;
+  border-style: solid;
+  border-width: medium;
+  border-color: teal;
+  text-align: center;
+  border-radius: 15px 50px;
+  height: 200;
+}
+
+.lead2 {
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 12pt;
+}
+
+.aboutimage1 {  border-radius: 25px;
+  border: 2px solid #73AD21;
+}
+
+
+.container3 {
+  padding: 25px;
+  border-style: solid;
+  border-width: medium;
+  border-color: teal;
+  text-align: center;
+  border-radius: 15px 50px;
+  height: 200;
+}
+
+.container4 {
+  padding: 25px;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  text-alight: center;
+  border-radius: 15px 50px;
+  height: 200;
+
+.row {height: 100px;
+  font-size: 24pt;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  height:100px
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
